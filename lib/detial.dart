@@ -39,7 +39,7 @@ class _DetailScreenState extends State<DetailScreen> {
               child: ListTile(
                 title: Text(
                 " ${item.name}",
-                  style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                  style: TextStyle(color: const Color.fromARGB(255, 183, 65, 65), fontWeight: FontWeight.bold),
                 ),
                 
                 subtitle: Column(
